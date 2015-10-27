@@ -76,6 +76,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BMW.cpp" />
+    <ClCompile Include="Cars.cpp" />
+    <ClCompile Include="ICar.cpp" />
+    <ClCompile Include="IState.cpp" />
+    <ClCompile Include="Program.cpp" />
+    <ClCompile Include="VAZ2115.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BMW.h" />
+    <ClInclude Include="Cars.h" />
+    <ClInclude Include="ICar.h" />
+    <ClInclude Include="IState.h" />
+    <ClInclude Include="VAZ2115.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
